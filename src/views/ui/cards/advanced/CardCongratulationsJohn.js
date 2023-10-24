@@ -20,7 +20,7 @@ const CardCongratulationsJohn = () => {
     <Card sx={{ position: 'relative' }}>
       <CardContent>
         <Typography variant='h5' sx={{ mb: 0.5 }}>
-          Congratulations John! 🎉
+          Congratulations Greg! 🎉
         </Typography>
         <Typography sx={{ mb: 2, color: 'text.secondary' }}>Best seller of the month</Typography>
         <Typography variant='h4' sx={{ mb: 0.5, color: 'primary.main' }}>

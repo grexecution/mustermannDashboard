@@ -12,17 +12,17 @@ const users = [
     id: 1,
     role: 'admin',
     password: 'admin',
-    fullName: 'John Doe',
+    fullName: 'Gregor Wallner',
     username: 'johndoe',
-    email: 'admin@vuexy.com'
+    email: 'admin@sqdconsulting.com'
   },
   {
     id: 2,
     role: 'client',
     password: 'client',
-    fullName: 'Jane Doe',
+    fullName: 'Gregor Wallner',
     username: 'janedoe',
-    email: 'client@vuexy.com'
+    email: 'client@sqdconsulting.com'
   }
 ]
 
