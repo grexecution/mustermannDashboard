@@ -130,5 +130,16 @@
   "Menu Level 3.2": "Menu Level 3.2",
   "Disabled Menu": "Disabled Menu",
   "Raise Support": "Raise Support",
-  "Documentation": "Documentation"
+  "Documentation": "Documentation",
+  "Compose": "Mail schreiben",
+  "Sent": "Gesendet",
+  "Draft": "Vorlage",
+  "Starred": "Favorit",
+  "Spam": "Spam",
+  "Trash": "Papierkorb",
+  "Labels": "Labels",
+  "Personal": "Persönlich",
+  "Company": "Firma",
+  "Important": "Wichtig",
+  "Private": "Privat"
 }

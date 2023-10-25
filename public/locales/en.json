@@ -131,5 +131,15 @@
   "Disabled Menu": "Disabled Menu",
   "Raise Support": "Raise Support",
   "Documentation": "Documentation",
-  "Earning Reports": "Earning Reports"
+  "Compose": "Compose",
+  "Sent": "Sent",
+  "Draft": "Draft",
+  "Starred": "Starred",
+  "Spam": "Spam",
+  "Trash": "Trash",
+  "Labels": "Labels",
+  "Personal": "Personal",
+  "Company": "Company",
+  "Important": "Important",
+  "Private": "Private"
 }

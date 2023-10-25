@@ -19,6 +19,7 @@ import axios from 'axios'
 // ** Custom Components Imports
 import OptionsMenu from 'src/@core/components/option-menu'
 import CustomAvatar from 'src/@core/components/mui/avatar'
+import { useTranslation } from 'react-i18next'
 
 // ** Utils Import
 import { getInitials } from 'src/@core/utils/get-initials'
@@ -158,10 +159,13 @@ const AnalyticsProject = () => {
     setValue(val)
   }
 
+  const { t } = useTranslation()
+
+
   return data ? (
     <Card>
       <CardHeader
-        title='Projects'
+        title={t('Projects')}
         titleTypographyProps={{ sx: { mb: [2, 0] } }}
         action={<CustomTextField value={value} placeholder='Search' onChange={e => handleFilter(e.target.value)} />}
         sx={{

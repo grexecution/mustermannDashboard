@@ -56,6 +56,9 @@ import 'src/iconify-bundle/icons-bundle-react'
 // ** Global css styles
 import '../../styles/globals.css'
 
+// Import Translation
+import 'src/configs/i18n'
+
 const clientSideEmotionCache = createEmotionCache()
 
 // ** Pace Loader
