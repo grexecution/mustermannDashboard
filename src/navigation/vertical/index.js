@@ -23,19 +23,19 @@ const navigation = () => {
       sectionTitle: 'Apps & Pages'
     },
     {
-      title: 'Email',
-      icon: 'tabler:mail',
-      path: '/apps/email'
-    },
-    {
-      title: 'Chat',
-      icon: 'tabler:messages',
-      path: '/apps/chat'
-    },
-    {
-      title: 'Calendar',
-      icon: 'tabler:calendar',
+      title: 'Projects',
+      icon: 'la:hammer',
       path: '/apps/calendar'
+    },
+    {
+      title: 'Customers',
+      icon: 'pepicons-pencil:people',
+      path: '/apps/calendar'
+    },
+    {
+      title: 'Employees',
+      icon: 'mdi:worker-outline',
+      path: '/apps/employees'
     },
     {
       title: 'Invoice',
@@ -58,6 +58,21 @@ const navigation = () => {
           path: '/apps/invoice/add'
         }
       ]
+    },
+    {
+      title: 'Email',
+      icon: 'tabler:mail',
+      path: '/apps/email'
+    },
+    {
+      title: 'Chat',
+      icon: 'tabler:messages',
+      path: '/apps/chat'
+    },
+    {
+      title: 'Calendar',
+      icon: 'tabler:calendar',
+      path: '/apps/calendar'
     },
     {
       title: 'User',

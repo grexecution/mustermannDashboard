@@ -14,7 +14,7 @@ const data = {
       contact: '(479) 232-9151',
       email: 'gslixby0@abc.net.au',
       currentPlan: 'enterprise',
-      status: 'inactive',
+      status: 'aktiv',
       avatar: '',
       avatarColor: 'primary'
     },
@@ -29,7 +29,7 @@ const data = {
       contact: '(472) 607-9137',
       email: 'hredmore1@imgur.com',
       currentPlan: 'team',
-      status: 'pending',
+      status: 'aktiv',
       avatar: '/images/avatars/3.png'
     },
     {
@@ -43,7 +43,7 @@ const data = {
       contact: '(321) 264-4599',
       email: 'msicely2@who.int',
       currentPlan: 'enterprise',
-      status: 'active',
+      status: 'urlaub',
       avatar: '/images/avatars/1.png'
     },
     {
@@ -57,7 +57,7 @@ const data = {
       contact: '(923) 690-6806',
       email: 'crisby3@wordpress.com',
       currentPlan: 'team',
-      status: 'inactive',
+      status: 'inaktiv',
       avatar: '/images/avatars/3.png'
     },
     {
@@ -71,7 +71,7 @@ const data = {
       contact: '(669) 914-1078',
       email: 'mhurran4@yahoo.co.jp',
       currentPlan: 'enterprise',
-      status: 'pending',
+      status: 'inaktiv',
       avatar: '/images/avatars/1.png'
     },
     {
@@ -85,7 +85,7 @@ const data = {
       contact: '(958) 973-3093',
       email: 'shalstead5@shinystat.com',
       currentPlan: 'company',
-      status: 'active',
+      status: 'kundentermin',
       avatar: '',
       avatarColor: 'error'
     },
@@ -100,7 +100,7 @@ const data = {
       contact: '(825) 977-8152',
       email: 'bgallemore6@boston.com',
       currentPlan: 'company',
-      status: 'pending',
+      status: 'kundentermin',
       avatar: '',
       avatarColor: 'warning'
     },
@@ -115,21 +115,21 @@ const data = {
       contact: '(187) 440-0934',
       email: 'kliger7@vinaora.com',
       currentPlan: 'enterprise',
-      status: 'pending',
+      status: 'aktiv',
       avatar: '/images/avatars/4.png'
     },
     {
       id: 9,
       billing: 'Manual - Credit Card',
-      fullName: 'Franz Scotfurth',
+      fullName: 'Viktoria Matis',
       company: 'Tekfly PVT LTD',
-      role: 'subscriber',
+      role: 'geschäftsführung',
       username: 'fscotfurth8',
       country: 'China',
       contact: '(978) 146-5443',
       email: 'fscotfurth8@dailymotion.com',
       currentPlan: 'team',
-      status: 'pending',
+      status: 'aktiv',
       avatar: '/images/avatars/2.png'
     },
     {
@@ -143,7 +143,7 @@ const data = {
       contact: '(589) 284-6732',
       email: 'jbellany9@kickstarter.com',
       currentPlan: 'company',
-      status: 'inactive',
+      status: 'urlaub',
       avatar: '/images/avatars/5.png'
     },
     {
@@ -157,7 +157,7 @@ const data = {
       contact: '(176) 532-6824',
       email: 'jwharltona@oakley.com',
       currentPlan: 'team',
-      status: 'inactive',
+      status: 'inaktiv',
       avatar: '/images/avatars/4.png'
     },
     {
