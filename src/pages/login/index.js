@@ -127,7 +127,7 @@ const LoginPage = () => {
   const imageSource = skin === 'bordered' ? 'auth-v2-login-illustration-bordered' : 'auth-v2-login-illustration'
 
   return (
-    <Box className='content-right' sx={{ backgroundColor: 'background.paper' }}>
+    <Box className='content-right ' sx={{ backgroundColor: 'background.paper' }}>
       {!hidden ? (
         <Box
           sx={{
@@ -141,8 +141,15 @@ const LoginPage = () => {
             margin: theme => theme.spacing(8, 0, 8, 8)
           }}
         >
-          <LoginIllustration alt='login-illustration' src={`/images/pages/${imageSource}-${theme.palette.mode}.png`} />
-          <FooterIllustrationsV2 />
+          <div className="hidden relative z-2">
+            <video autoPlay data-aos="anim1" data-aos-delay="750"
+                   muted
+                   loop
+                   className=""
+            >
+              <source src="/videos/construction.mp4" type="video/mp4" />
+            </video>
+          </div>
         </Box>
       ) : null}
       <RightWrapper>
@@ -186,18 +193,18 @@ const LoginPage = () => {
             </svg>
             <Box sx={{ my: 6 }}>
               <Typography variant='h3' sx={{ mb: 1.5 }}>
-                {`Willkommen ${themeConfig.templateName}! 👋🏻`}
+                {`Willkommen! 👋🏻`}
               </Typography>
               <Typography sx={{ color: 'text.secondary' }}>
-                Bitte melde dich mit einen Zugangsdaten an
+                Bitte melde dich mit deinen Zugangsdaten an
               </Typography>
             </Box>
             <Alert icon={false} sx={{ py: 3, mb: 6, ...bgColors.primaryLight, '& .MuiAlert-message': { p: 0 } }}>
               <Typography variant='body2' sx={{ mb: 2, color: 'primary.main' }}>
-                Admin: <strong>admin@sqdconsulting.com</strong> / Pass: <strong>admin</strong>
+                Admin: <strong>admin@sqdconsulting.com</strong> / Passwort: <strong>admin</strong>
               </Typography>
               <Typography variant='body2' sx={{ color: 'primary.main' }}>
-                Client: <strong>client@sqdconsulting.com</strong> / Pass: <strong>client</strong>
+                Kunde: <strong>client@sqdconsulting.com</strong> / Passwort: <strong>client</strong>
               </Typography>
             </Alert>
             <form noValidate autoComplete='off' onSubmit={handleSubmit(onSubmit)}>
@@ -264,20 +271,20 @@ const LoginPage = () => {
                 }}
               >
                 <FormControlLabel
-                  label='Remember Me'
+                  label='Angemeldet bleiben'
                   control={<Checkbox checked={rememberMe} onChange={e => setRememberMe(e.target.checked)} />}
                 />
                 <Typography component={LinkStyled} href='/forgot-password'>
-                  Forgot Password?
+                  Passwort vergessen?
                 </Typography>
               </Box>
               <Button fullWidth type='submit' variant='contained' sx={{ mb: 4 }}>
                 Login
               </Button>
               <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'center' }}>
-                <Typography sx={{ color: 'text.secondary', mr: 2 }}>New on our platform?</Typography>
+                <Typography sx={{ color: 'text.secondary', mr: 2 }}>Noch kein Konto?</Typography>
                 <Typography href='/register' component={LinkStyled}>
-                  Create an account
+                  Jetzt registrieren
                 </Typography>
               </Box>
 

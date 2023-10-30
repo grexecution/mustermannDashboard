@@ -30,18 +30,7 @@ const LanguageDropdown = ({ settings, saveSettings }) => {
       menuProps={{ sx: { '& .MuiMenu-paper': { mt: 4.25, minWidth: 130 } } }}
       options={[
         {
-          text: 'English',
-          menuItemProps: {
-            sx: { py: 2 },
-            selected: i18n.language === 'en',
-            onClick: () => {
-              handleLangItemClick('en')
-              saveSettings({ ...settings, direction: 'ltr' })
-            }
-          }
-        },
-        {
-          text: 'German',
+          text: 'Deutsch',
           menuItemProps: {
             sx: { py: 2 },
             selected: i18n.language === 'de',
@@ -52,24 +41,24 @@ const LanguageDropdown = ({ settings, saveSettings }) => {
           }
         },
         {
-          text: 'French',
+          text: 'Englisch',
+          menuItemProps: {
+            sx: { py: 2 },
+            selected: i18n.language === 'en',
+            onClick: () => {
+              handleLangItemClick('en')
+              saveSettings({ ...settings, direction: 'ltr' })
+            }
+          }
+        },
+        {
+          text: 'Französisch',
           menuItemProps: {
             sx: { py: 2 },
             selected: i18n.language === 'fr',
             onClick: () => {
               handleLangItemClick('fr')
               saveSettings({ ...settings, direction: 'ltr' })
-            }
-          }
-        },
-        {
-          text: 'Arabic',
-          menuItemProps: {
-            sx: { py: 2 },
-            selected: i18n.language === 'ar',
-            onClick: () => {
-              handleLangItemClick('ar')
-              saveSettings({ ...settings, direction: 'rtl' })
             }
           }
         }

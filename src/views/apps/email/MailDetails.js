@@ -543,19 +543,19 @@ const MailDetails = props => {
                   }}
                 >
                   <Typography sx={{ fontWeight: 500, color: 'text.secondary' }}>
-                    Click here to{' '}
+                    Hier klicken um zu{' '}
                     <Typography
                       component='span'
                       sx={{ cursor: 'pointer', color: 'primary.main', fontWeight: 'inherit' }}
                     >
-                      Reply
+                      Antworten
                     </Typography>{' '}
-                    or{' '}
+                    oder{' '}
                     <Typography
                       component='span'
                       sx={{ cursor: 'pointer', color: 'primary.main', fontWeight: 'inherit' }}
                     >
-                      Forward
+                      Weiterleiten
                     </Typography>
                   </Typography>
                 </Box>
